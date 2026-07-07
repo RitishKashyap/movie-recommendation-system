@@ -1,0 +1,84 @@
+.hero{
+    height:90vh;
+
+   
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+.overlay{
+    text-align:center;
+}
+
+.overlay h1{
+
+    font-size:52px;
+    width:600px;
+
+   line-height:1.2;
+
+    margin:0 auto;  
+}
+
+.overlay span{
+
+    color:#E50914;
+}
+
+.overlay p{
+
+    margin-top:20px;
+    font-size:22px;
+
+    color:#ddd;
+}
+
+.search-box{
+
+    margin-top:40px;
+
+    display:flex;
+    justify-content:center;
+}
+
+.search-box input{
+
+    width:420px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:8px 0 0 8px;
+
+    font-size:17px;
+}
+
+.search-box button{
+
+    padding:16px 30px;
+
+    background:#E50914;
+
+    color:white;
+
+    border:none;
+
+    font-size:17px;
+
+    border-radius:0 8px 8px 0;
+
+    cursor:pointer;
+}
+
+.search-box button:hover{
+
+    background:#c40812;
+}
