@@ -1,0 +1,134 @@
+.movies-page {
+  background: #0b0b0b;
+  color: white;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero-banner {
+  height: 500px;
+  background:
+    linear-gradient(to right, rgba(0,0,0,.85), rgba(0,0,0,.35)),
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  margin-bottom: 70px;
+}
+
+.hero-overlay {
+  max-width: 650px;
+}
+
+.hero-overlay h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-overlay p {
+  font-size: 22px;
+  color: #e4e4e4;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.explore-btn {
+  padding: 16px 38px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #e50914;
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+  font-weight: bold;
+}
+
+.explore-btn:hover {
+  background: #ff2d3d;
+  transform: scale(1.05);
+}
+
+/* ================= TITLE ================= */
+
+.movies-title {
+  text-align: center;
+  font-size: 48px;
+  color: #e50914;
+  margin-bottom: 60px;
+}
+
+/* ================= GENRES ================= */
+
+.genre-section {
+  margin-bottom: 55px;
+}
+
+.genre-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+
+.movies-row {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 15px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.movies-row::-webkit-scrollbar {
+  display: none;
+}
+
+/* ================= MOVIE CARD ================= */
+
+.movie-card {
+  min-width: 220px;
+  text-decoration: none;
+  color: white;
+  transition: .35s;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px) scale(1.06);
+}
+
+.movie-poster {
+  width: 220px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.6);
+}
+
+.movie-card h3 {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 17px;
+}
+
+.movie-card p {
+  text-align: center;
+  color: #bdbdbd;
+  font-size: 15px;
+}
+
+/* ================= LOADING ================= */
+
+.loading {
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 34px;
+}

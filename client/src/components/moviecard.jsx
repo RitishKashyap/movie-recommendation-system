@@ -1,47 +1,27 @@
-import{Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./MovieCard.css";
+
 function MovieCard({ movie }) {
   return (
-    <div
-      style={{
-        width: "220px",
-        background: "#1b1b1b",
-        borderRadius: "10px",
-        overflow: "hidden",
-      }}
-    >
+    <div className="movie-card">
       <img
         src={movie.Poster}
         alt={movie.Title}
-        style={{
-          width: "100%",
-          height: "320px",
-          objectFit: "cover",
-        }}
+        className="movie-card-poster"
       />
 
-      <div style={{ padding: "15px", color: "white" }}>
+      <div className="movie-card-content">
         <h3>{movie.Title}</h3>
         <p>{movie.Year}</p>
 
-       <Link
-  to={`/movie/${movie.imdbID}`}
-  onClick={() => console.log(movie.imdbID)}
-  style={{ textDecoration: "none" }}
->
-  <button
-    style={{
-      width: "100%",
-      padding: "10px",
-      background: "#E50914",
-      color: "white",
-      border: "none",
-      borderRadius: "6px",
-      cursor: "pointer",
-    }}
-  >
-    View Details
-  </button>
-</Link>
+        <Link
+          to={`/movie/${movie.imdbID}`}
+          style={{ textDecoration: "none" }}
+        >
+          <button className="details-btn">
+            View Details
+          </button>
+        </Link>
       </div>
     </div>
   );

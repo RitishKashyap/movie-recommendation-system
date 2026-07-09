@@ -15,7 +15,7 @@ function About() {
         <h1>About CineVerse</h1>
         <p>
           CineVerse is a movie search website built using React, React Router,
-          Axios and the OMDb API.
+          Axios,the OMDb API,express,node.js, and MongoDB. It allows users to search for movies, view details, and manage a personal watchlist. The application is designed to provide an intuitive and seamless experience for movie enthusiasts.
         </p>
       </div>
     </>

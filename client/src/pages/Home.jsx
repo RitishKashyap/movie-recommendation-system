@@ -1,15 +1,43 @@
-
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import TrendingMovies from "../components/TrendingMovies";
+import RandomMovie from "../components/RandomMovie";
 import Footer from "../components/Footer";
 
-function Home({ movies, fetchMovies }) {
+function Home({
+  movies,
+  popularMovies,
+  top10Movies,
+  recommendedMovies,
+  fetchMovies,
+}) {
   return (
     <>
       <Navbar />
       <Hero fetchMovies={fetchMovies} />
-      <TrendingMovies movies={movies} />
+
+      <RandomMovie />
+
+      <TrendingMovies
+        title="🔥 Trending Movies"
+        movies={movies}
+      />
+
+      <TrendingMovies
+        title="🍿 Popular Movies"
+        movies={popularMovies}
+      />
+
+      <TrendingMovies
+        title="🏆 Top 10 Movies"
+        movies={top10Movies}
+      />
+
+      <TrendingMovies
+        title="⭐ You May Also Like"
+        movies={recommendedMovies}
+      />
+
       <Footer />
     </>
   );

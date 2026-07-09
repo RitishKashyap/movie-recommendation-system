@@ -31,3 +31,16 @@
 .nav-links span:hover {
   color: #e50914;
 }
+.logout-btn {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.logout-btn:hover {
+  background: #b20710;
+}

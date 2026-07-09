@@ -15,7 +15,7 @@ function Footer() {
       </p>
 
       <p>
-        © 2026 CineVerse | Built with React & OMDb API
+        © 2026 CineVerse | Built with React & OMDb API express, node.js, and MongoDB.
       </p>
     </footer>
   );
