@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./movieCard.css";
+import "./moviecard.css";
 
 function MovieCard({ movie }) {
   return (
