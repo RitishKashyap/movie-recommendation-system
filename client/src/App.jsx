@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 
 import Home from "./pages/Home";
 import MovieDetails from "./pages/MovieDetails";
-import Watchlist from "./pages/Watchlist";
-import About from "./pages/About";
+import Watchlist from "./pages/watchlist";
+import About from "./pages/about";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Movies from "./pages/Movies";
