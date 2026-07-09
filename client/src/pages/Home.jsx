@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
-import TrendingMovies from "../components/TrendingMovies";
+import TrendingMovies from "../components/Trendingmovies";
 import RandomMovie from "../components/RandomMovie";
 import Footer from "../components/footer";
 
