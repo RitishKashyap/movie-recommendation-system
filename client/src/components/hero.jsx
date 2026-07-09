@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Hero.css";
+import "./hero.css";
 import heroImage from "../assets/images/hero.jpg";
 
 function Hero({ fetchMovies }) {

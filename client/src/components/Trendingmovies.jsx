@@ -1,5 +1,5 @@
-import MovieCard from "./MovieCard";
-import "./TrendingMovies.css";
+import MovieCard from "./moviecard";
+import "./Trendingmovies.css";
 
 function TrendingMovies({ title = "Movies", movies = [] }) {
   return (
