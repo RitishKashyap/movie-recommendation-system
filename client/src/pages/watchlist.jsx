@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Navbar from "../components/Navbar";
-import MovieCard from "../components/MovieCard";
+import Navbar from "../components/navbar";
+import MovieCard from "../components/movieCard";
 import { toast } from "react-toastify";
 
 function Watchlist() {

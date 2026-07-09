@@ -1,8 +1,8 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
+import Navbar from "../components/navbar";
+import Hero from "../components/hero";
 import TrendingMovies from "../components/TrendingMovies";
 import RandomMovie from "../components/RandomMovie";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 
 function Home({
   movies,
